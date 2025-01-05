@@ -98,9 +98,9 @@ Instead `display:none` is to use `opacity:0` or `position:absolute` (it will be 
 ![](/img/05a.jpg)
 ![](/img/05b.jpg)
 
-## 6.БЭМ методология за 10 минут | Основы для начинающих
+## 6.Пиксели в CSS не нужны — используй Rem! Адаптивный размер шрифта, Sass-миксин и функция Px to Rem
 ![](/img/06a.jpg)
->Ref: Youtube [БЭМ методология за 10 минут | Основы для начинающих](https://www.youtube.com/watch?v=FH-t1mt-lSs)
+>Ref: Youtube [Пиксели в CSS не нужны — используй Rem! Адаптивный размер шрифта, Sass-миксин и функция Px to Rem](https://www.youtube.com/watch?v=6l6IJLlSoLo)
 
 >Ref: GitHub [pixels-vs-rem](https://github.com/aleksanderlamkov/pixels-vs-rem)
 * Используя `rem` можно добиться, чтобы размер шрифта менялся при изменении маштаба браузра (при использовании `px` такого не будет)
@@ -164,8 +164,8 @@ body { @include fluid-text(18, 16) }
 }
 
 .box {
-  width: rem(400);        // 600px => 37.5rem
-  height: rem(250);       // 280px => 17.5rem
+  width: rem(600);        // 600px => 37.5rem
+  height: rem(280);       // 280px => 17.5rem
   padding: rem(40);       // 40px  => 2.5rem
   border-radius: rem(15); // 15px  => 0.9375rem
   box-shadow:
@@ -180,3 +180,58 @@ body { @include fluid-text(18, 16) }
   }
 }
 ```
+
+## 7.БЭМ методология за 10 минут | Основы для начинающих
+![](/img/07a.jpg)
+>Ref: Youtube [БЭМ методология за 10 минут | Основы для начинающих](https://www.youtube.com/watch?v=FH-t1mt-lSs)
+
+## 8.Ускоряем верстку | Гайд по препроцессору стилей | Sass (SCSS)
+![](/img/08a.jpg)
+>Ref: Youtube [Ускоряем верстку | Гайд по препроцессору стилей | Sass (SCSS)](https://www.youtube.com/watch?v=pBSch5AsJWs)
+
+ Для VSCode оказывается есть расширение Live Sass Compiler: https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass. Можно через него работать с SCSS также удобно, как в WebStorm.
+
+![](/img/08b.jpg)
+
+Миксины:
+
+![](/img/08c.jpg)
+
+Переменные в миксинах:
+
+![](/img/08d.jpg)
+
+Функции:
+
+![](/img/08e.jpg)
+
+Цикл:
+
+![](/img/08f.jpg)
+
+Сборка из разных файлов:
+
+![](/img/08g.jpg)
+
+* _normalize.scss
+
+![](/img/08ga.jpg)
+
+* _mixins.scss
+
+![](/img/08gb.jpg)
+
+* _variables.scss
+
+![](/img/08gc.jpg)
+
+* _utils.scss - перечисляются утилитарные функции, которые можно добавлять к различным элементам разметки
+
+![](/img/08gd.jpg)
+
+* _globals.scss - глобальные стили, характерные для текущего проекта
+
+>Ref: GitHub [index.css](https://raw.githubusercontent.com/aleksanderlamkov/css-normalize/main/index.css)
+
+
+![](/img/08ge.jpg)
