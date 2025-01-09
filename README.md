@@ -235,3 +235,18 @@ body { @include fluid-text(18, 16) }
 
 
 ![](/img/08ge.jpg)
+
+
+## 9.How to make your website responsive
+![](/img/08a.jpg)
+>Ref: Youtube [How to make your website responsive)](https://www.youtube.com/watch?v=vQDgoQKfdzM)
+
+![](/img/09a.jpg)
+
+![](/img/09b.jpg)
+
+![](/img/09c.jpg)
+
+![](/img/09d.jpg)
+
+![](/img/09e.jpg)
