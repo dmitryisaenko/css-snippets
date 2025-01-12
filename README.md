@@ -238,10 +238,10 @@ body { @include fluid-text(18, 16) }
 
 
 ## 9.How to make your website responsive
-![](/img/08a.jpg)
+![](/img/09a.jpg)
 >Ref: Youtube [How to make your website responsive)](https://www.youtube.com/watch?v=vQDgoQKfdzM)
 
-![](/img/09a.jpg)
+[The Clamp Calculator](https://royalfig.github.io/fluid-typography-calculator/)
 
 ![](/img/09b.jpg)
 
